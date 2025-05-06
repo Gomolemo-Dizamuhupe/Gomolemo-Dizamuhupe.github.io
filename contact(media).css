@@ -1,0 +1,26 @@
+/* 768 media */
+@media(max-width:768px){
+    body{
+        margin: 0px 70px 0px 70px;
+    }
+}
+
+/* 425px media */
+@media (max-width:425px) {
+    body{
+        margin: 35px 35px;
+    }
+
+    .main-content{
+        margin-top: 50px;
+    }
+
+    footer {
+        font-size: medium;
+        flex-direction: column;
+    }
+
+    footer div {
+        margin-bottom: 10px;
+    }
+}

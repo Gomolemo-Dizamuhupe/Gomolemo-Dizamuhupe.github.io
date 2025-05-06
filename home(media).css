@@ -1,0 +1,130 @@
+/* 1024px media */
+@media (max-width: 1024px) {
+    #main-content{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #about_img{
+        width: 400px;
+        border-radius: 50%;
+    }
+
+    #content{
+        width: 350px;
+    }
+
+    #content h1{
+        font-weight: 525;
+        font-size: 5em;
+    }
+
+    #content p{
+        font-size: small;
+    }
+
+    /*buttons*/
+    #resume-btn,#project-btn,#contact-btn{
+        font-size: small;
+        height: 85px;
+        width: 85px;
+        margin-right: 6px;
+    }
+}
+
+/* 768px media */
+@media (max-width: 768px) {
+    /*main content*/
+    #main-content{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #about_img{
+        width: 360px;
+        border-radius: 50%;
+    }
+
+    #content{
+        width: 280px;
+    }
+
+    #content h1{
+        font-size: 4em;
+    }
+
+    #content p{
+        font-size: small;
+    }
+
+    /*buttons*/
+    #resume-btn,#project-btn,#contact-btn{
+        font-size: small;
+        height: 80px;
+        width: 80px;
+        margin-right: 5px;
+    }
+}
+
+/* 550px media */
+@media (max-width: 550px) {
+    body{
+        margin: 0px 15px 0px 15px;
+    }
+    /*Navigion bar*/
+    li{
+        font-size: small;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 7.5px;
+        font-weight: lighter;
+        padding: 5px;
+    }
+
+    /*Main content*/
+    #main-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about_img{
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    #content{
+        width: 250px;
+        text-align: center;
+    }
+
+    #content h1{
+        font-size: 4em;
+    }
+
+    #content p{
+        font-size: small;
+    }
+
+    /*buttons*/
+    #buttons {
+        margin-top: 20px;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    #resume-btn,#project-btn,#contact-btn{
+        font-size: small;
+        height: 70px;
+        width: 70px;
+        margin-right: 4px;
+    }
+
+    /*Footer*/
+    footer{
+        flex-direction: column;
+    }
+
+    footer > div{
+        font-size: medium;
+    }
+}
